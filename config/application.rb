@@ -27,6 +27,8 @@ module Codaisseurbnb
     console do
       ActiveRecord::Base.connection
     end
+
+
     # Don't generate system test files.
     config.generators.system_tests = nil
   end
